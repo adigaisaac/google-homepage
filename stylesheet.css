@@ -1,0 +1,66 @@
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.img-center {
+	margin-top:200px;
+}
+.search-center {
+	margin-top:30px;
+}
+.buttonleft {
+	margin-top:32px;
+}
+div {
+	text-align: center;
+	margin-top: 20px;
+}
+#search_bar {
+	position: relative;
+	height: 40px;
+	width: 560px;
+	border: 1px solid #F2F2F2;
+	box-shadow: 1px 1px 1px 1px #ccc;  
+	font: 16px arial, sans-serif;
+	color: black;
+	margin-top: 20px;
+	padding-left: 14px;
+}
+#signin {
+	background-color: #4583eb;
+	width: 80px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 98%; /* Full width */
+}
+.navbar a, .footer a {
+	display: inline;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: gray;
+}
+.navbar a:hover, .footer a:hover {
+	text-decoration: underline;
+}
+.main {
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.footer {
+	overflow: hidden;
+	background-color: #f2f2f2;
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+}
